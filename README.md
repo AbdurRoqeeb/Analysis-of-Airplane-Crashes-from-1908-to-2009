@@ -59,7 +59,7 @@ Finally, a Reason column was added by looking for specific words in the Summary 
 
 ----
 ## Findings
-Analysis and visualizaton was done with Microsoft Power BI and the following insights were derived:
+Analysis and visualization was done with Microsoft Power BI and the following insights were derived:
 - Total number of crashes between 1908 and 2009 is 5,236.
 - Total number of passengers aboard is above 140,000 and total number of fatalities is above 105,000. The fatality rate is 72.87%
 - Weather is the major cause of plane crash, which accounts for more than 1,600 of the total crashes.
@@ -70,7 +70,7 @@ Analysis and visualizaton was done with Microsoft Power BI and the following ins
 
 ----
 ## Reccommendations
-1. Weather forecast shold be properly done before flights take off.
+1. Weather forecast should be properly done before flights take off.
 2. Special attention should be given to countries where most crashes has occured in order to reduce further occurrences.
 3. Airline operators should make necessary checks to ensure the plane is in good shape so as to prevent crashes due to engine failure.
 
