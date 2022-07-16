@@ -26,7 +26,7 @@ The goal of analysing this data is to get insights that answers some important q
 
 ----
 ## Data Sourcing
-Data used for analysis was scrapped from [this](https://github.com/theoyinbooke/30Days-of-Learning-Data-Analysis-Using-Power-BI-for-Students) Github repository. The data was originally goten from [Kaggle](https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908).
+Data used for analysis was scrapped from [this](https://github.com/theoyinbooke/30Days-of-Learning-Data-Analysis-Using-Power-BI-for-Students) Github repository. The data was originally gotten from [Kaggle](https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908).
 
 ----
 ## Data Cleaning
@@ -44,11 +44,13 @@ The data had 13 columns which are:
 - Fatalities
 - Ground
 - Summary
+
 Some of these columns were removed during the cleaning process because they had more empty rows than non-empty rows and their removal will not have any effect on the analysis. The removed columns are:
 - Time
 - Flight #
 - Route
 - cn/In
+
 Empty rows in other columns were appropriately dealt with by replacing those of numerical data type with 0 and those of text data with Unknown.
 An index column was added in order to make counting of the total number of crashes easier.
 Year and Month columns were also added by extracting them from the date column.
